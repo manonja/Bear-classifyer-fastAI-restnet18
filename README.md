@@ -24,7 +24,7 @@ Want to run this demo locally? Here's how:
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/bears-classifier.git
+git clone https://github.com/manonja/bears-classifier.git
 ```
 
 2. Navigate to the project repository:
