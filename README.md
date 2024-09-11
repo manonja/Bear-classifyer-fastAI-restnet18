@@ -9,6 +9,14 @@ I kept things simple, and crafted this bear classifier with:
 - **JavaScript**: For client-side functionality
 - **HTML**: Structuring our web content
 - **CSS**: Styling to make the interface clean and user-friendly
+- **FastAI**: For training the deep learning model with minimal code complexity, chosen for its abstractions for training and fine-tuning neural networks.
+- **ResNet18**: Deep residual learning model known for its efficiency and performance in image classification tasks.
+- **Hugging Face**: To deploy the model and make it accessible via a web interface, we used Hugging Face Spaces.
+
+## 🏋️‍♂️ How It Works
+- Data Collection: leveraged Kaggle's bear image dataset, which includes labeled images of grizzly, black, and polar bears.
+- Model Training: Using FastAI's high-level API, we trained a ResNet18 model to classify bear images, employing transfer learning techniques to speed up the process and improve accuracy.
+- Deployment: The trained model is deployed on Hugging Face Spaces, ensuring easy integration and real-time classification in the browser.
 
 ## 🔮 Features
 
@@ -36,8 +44,7 @@ cd bears-classifier
 ## 🤝 Contributing
 Have ideas to improve the classifier? We welcome your contributions! Whether it's fixing a bug or adding new features, feel free to fork the repository, create a feature branch, and send us a pull request!
 
-## 📬 Try the Demo
-Ready to see it in action? Visit the [Bears Classifier Demo](#) and start identifying bears!
+## 📬 Taining model
 
 For the training model, you can visit my notebook [here](https://www.kaggle.com/code/manonjacquin/first-demo-bear-classifier)
 
